@@ -1778,20 +1778,6 @@ body.home .wp-block-button__link {
   white-space: normal;
 }
 
-html,
-body,
-body.admin-bar {
-  --wp-admin--admin-bar--height: 0px !important;
-  --wp-admin--admin-bar--position-offset: 0px !important;
-  margin-top: 0 !important;
-}
-
-#wpadminbar,
-.wp-admin-bar,
-.admin-bar #wpadminbar {
-  display: none !important;
-}
-
 body.home .homepage-video-embed .wp-block-embed__wrapper {
   aspect-ratio: 16 / 9;
   overflow: hidden;
