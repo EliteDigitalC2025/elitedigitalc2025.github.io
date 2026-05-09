@@ -1810,7 +1810,7 @@ body.home #services > .wp-block-group p {
   margin-left: auto !important;
   margin-right: auto !important;
   max-width: 1120px !important;
-  text-align: left !important;
+  text-align: center !important;
   width: 100% !important;
 }
 
@@ -2286,5 +2286,11 @@ body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-backgroun
     margin-top: 64px !important;
     max-width: 1500px !important;
     width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body.home #services.wp-block-group.alignfull > .wp-block-group:first-child p {
+    white-space: nowrap !important;
   }
 }
