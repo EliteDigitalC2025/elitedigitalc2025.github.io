@@ -2164,3 +2164,70 @@ body.home #testimonials h4 {
     overflow-wrap: anywhere;
   }
 }
+
+/* Wide-screen testimonial layout correction. */
+body.home #testimonials.wp-block-group.alignfull {
+  align-items: center !important;
+  padding-left: clamp(20px, 4vw, 72px) !important;
+  padding-right: clamp(20px, 4vw, 72px) !important;
+}
+
+body.home #testimonials.wp-block-group.alignfull > .wp-block-group,
+body.home #testimonials.wp-block-group.alignfull > .wp-block-columns {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 1760px !important;
+  width: 100% !important;
+}
+
+body.home #testimonials.wp-block-group.alignfull > .wp-block-group:not(.has-background-background-color) {
+  display: flex !important;
+  justify-content: center !important;
+  width: min(100%, 900px) !important;
+}
+
+body.home #testimonials.wp-block-group.alignfull > .wp-block-group:not(.has-background-background-color) > .wp-block-group,
+body.home #testimonials.wp-block-group.alignfull h2,
+body.home #testimonials.wp-block-group.alignfull > .wp-block-group:not(.has-background-background-color) p {
+  text-align: center !important;
+}
+
+body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-background-background-color {
+  max-width: 1760px !important;
+  width: 100% !important;
+}
+
+body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-background-background-color > .wp-block-columns {
+  gap: clamp(32px, 4vw, 72px) !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  max-width: none !important;
+  width: 100% !important;
+}
+
+body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-background-background-color .wp-block-column:first-child {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 58% !important;
+  justify-content: center;
+}
+
+body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-background-background-color .wp-block-column:first-child > * {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  max-width: 900px !important;
+}
+
+body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-background-background-color .wp-block-column:last-child {
+  flex-basis: 36% !important;
+}
+
+body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-background-background-color .wp-block-column:last-child figure {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+  max-width: 520px;
+}
+
+body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-background-background-color img {
+  max-height: 420px;
+}
