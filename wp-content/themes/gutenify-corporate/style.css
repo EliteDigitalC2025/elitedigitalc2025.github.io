@@ -1844,6 +1844,112 @@ body.home #services p {
   max-width: 18rem;
 }
 
+body.home #testimonials {
+  align-items: center;
+}
+
+body.home #testimonials > .wp-block-group,
+body.home #testimonials > .wp-block-columns {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body.home #testimonials > .wp-block-group:not(.has-background-background-color) {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+body.home #testimonials > .wp-block-group:not(.has-background-background-color) > .wp-block-group {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 760px;
+  text-align: center;
+  width: 100%;
+}
+
+body.home #testimonials h2,
+body.home #testimonials > .wp-block-group:not(.has-background-background-color) p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 760px;
+  text-align: center;
+  width: 100%;
+}
+
+body.home #testimonials > .wp-block-group.has-background-background-color {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1120px;
+}
+
+body.home #testimonials > .wp-block-group.has-background-background-color > .wp-block-columns {
+  align-items: center;
+  gap: clamp(28px, 4vw, 56px);
+}
+
+body.home #testimonials > .wp-block-group.has-background-background-color figure {
+  margin: 0;
+}
+
+body.home #testimonials > .wp-block-group.has-background-background-color img {
+  aspect-ratio: 1;
+  display: block;
+  max-height: 360px;
+  object-fit: cover;
+  width: 100%;
+}
+
+body.home #testimonials > .wp-block-columns {
+  align-items: stretch;
+  gap: 28px;
+  justify-content: center;
+  margin-top: 32px !important;
+}
+
+body.home #testimonials > .wp-block-columns > .wp-block-column {
+  display: flex;
+}
+
+body.home #testimonials > .wp-block-columns > .wp-block-column > .wp-block-group {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  height: 100%;
+  min-height: 220px;
+  width: 100%;
+}
+
+body.home #testimonials > .wp-block-columns > .wp-block-column > .wp-block-group > p {
+  margin: 0;
+}
+
+body.home #testimonials > .wp-block-columns .wp-block-group.is-nowrap {
+  align-items: center;
+  gap: 16px;
+  margin-top: auto;
+}
+
+body.home #testimonials > .wp-block-columns .wp-block-image {
+  flex: 0 0 72px;
+  margin: 0;
+}
+
+body.home #testimonials > .wp-block-columns .wp-block-image img {
+  display: block;
+  height: 72px !important;
+  object-fit: cover !important;
+  width: 72px !important;
+}
+
+body.home #testimonials h4 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 @media screen and (max-width: 900px) {
   body.home header.wp-block-template-part .wp-container-core-group-is-layout-43b4b956,
   body.home header.wp-block-template-part .wp-container-core-group-is-layout-6c531013 {
@@ -1960,6 +2066,41 @@ body.home #services p {
 
   body.home #services p {
     max-width: 24rem;
+  }
+
+  body.home #testimonials {
+    padding-top: 56px !important;
+    padding-bottom: 56px !important;
+  }
+
+  body.home #testimonials > .wp-block-group:not(.has-background-background-color) {
+    margin-bottom: 32px;
+  }
+
+  body.home #testimonials > .wp-block-group.has-background-background-color {
+    padding: 28px 20px !important;
+  }
+
+  body.home #testimonials > .wp-block-group.has-background-background-color > .wp-block-columns {
+    gap: 24px;
+  }
+
+  body.home #testimonials > .wp-block-group.has-background-background-color img {
+    max-height: 320px;
+  }
+
+  body.home #testimonials > .wp-block-columns {
+    gap: 22px;
+    margin-top: 24px !important;
+  }
+
+  body.home #testimonials > .wp-block-columns > .wp-block-column {
+    flex-basis: 100% !important;
+    max-width: 34rem;
+  }
+
+  body.home #testimonials > .wp-block-columns > .wp-block-column > .wp-block-group {
+    padding: 24px 20px !important;
   }
 
   body.home .wp-block-buttons {
