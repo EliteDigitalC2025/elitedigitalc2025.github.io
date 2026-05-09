@@ -1761,3 +1761,171 @@ footer.wp-block-template-part a {
   font-size: 1.1rem;
   font-weight: 500;
 }
+
+/* Homepage responsive refinements for the static WordPress export. */
+body.home {
+  overflow-x: hidden;
+}
+
+body.home img,
+body.home iframe,
+body.home video,
+body.home .embed-privacy-container {
+  max-width: 100%;
+}
+
+body.home .wp-block-button__link {
+  white-space: normal;
+}
+
+@media screen and (max-width: 900px) {
+  body.home header.wp-block-template-part .wp-container-core-group-is-layout-43b4b956,
+  body.home header.wp-block-template-part .wp-container-core-group-is-layout-6c531013 {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  body.home header.wp-block-template-part .wp-container-core-group-is-layout-bea41954 {
+    flex: 1 1 260px;
+    min-width: 0;
+  }
+
+  body.home header.wp-block-template-part .wp-block-site-title {
+    line-height: 1.2;
+    max-width: min(68vw, 430px);
+  }
+
+  body.home header.wp-block-template-part .wp-block-site-title a {
+    overflow-wrap: anywhere;
+  }
+
+  body.home header.wp-block-template-part .wp-block-buttons {
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 781px) {
+  body.home main.wp-block-group {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+
+  body.home .wp-block-columns {
+    flex-wrap: wrap !important;
+  }
+
+  body.home .wp-block-columns > .wp-block-column {
+    flex-basis: 100% !important;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  body.home .wp-block-group.alignfull,
+  body.home .wp-block-group.alignwide,
+  body.home footer.wp-block-template-part > .wp-block-group {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  body.home .wp-container-core-group-is-layout-d239a0bc,
+  body.home .wp-container-core-group-is-layout-91348bd2,
+  body.home .wp-container-core-group-is-layout-301020a0,
+  body.home .wp-container-core-group-is-layout-ac1ffb43 {
+    padding: 28px 20px !important;
+  }
+
+  body.home .wp-container-core-group-is-layout-419548bd,
+  body.home .wp-container-core-group-is-layout-6c756ad3 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  body.home h1,
+  body.home .wp-block-site-title {
+    font-size: clamp(1.05rem, 6vw, 1.6rem) !important;
+  }
+
+  body.home h2,
+  body.home .has-slider-title-font-size,
+  body.home .has-large-font-size {
+    font-size: clamp(1.75rem, 9vw, 2.5rem) !important;
+    line-height: 1.15;
+  }
+
+  body.home h3 {
+    font-size: clamp(1.15rem, 5.5vw, 1.35rem) !important;
+  }
+
+  body.home p[style*="font-size:32px"] {
+    font-size: clamp(1.35rem, 7vw, 2rem) !important;
+  }
+
+  body.home .wp-block-cover {
+    min-height: 320px !important;
+  }
+
+  body.home .wp-block-cover .wp-block-spacer {
+    height: 240px !important;
+  }
+
+  body.home .wp-block-buttons {
+    width: 100%;
+  }
+
+  body.home .wp-block-button,
+  body.home .wp-block-button__link {
+    width: 100%;
+  }
+
+  body.home .wp-block-button__link {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  body.home footer.wp-block-template-part .wp-block-social-links {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body.home header.wp-block-template-part .wp-container-core-group-is-layout-43b4b956,
+  body.home header.wp-block-template-part .wp-container-core-group-is-layout-6c531013 {
+    width: 100%;
+  }
+
+  body.home header.wp-block-template-part .wp-container-core-group-is-layout-bea41954 {
+    flex-basis: calc(100% - 56px);
+  }
+
+  body.home header.wp-block-template-part .wp-block-site-title {
+    max-width: calc(100vw - 112px);
+  }
+
+  body.home header.wp-block-template-part .wp-block-buttons {
+    flex-basis: 100%;
+    justify-content: stretch;
+  }
+
+  body.home .wp-block-social-links {
+    flex-wrap: wrap;
+  }
+
+  body.home .wp-container-core-group-is-layout-d239a0bc,
+  body.home .wp-container-core-group-is-layout-91348bd2,
+  body.home .wp-container-core-group-is-layout-301020a0,
+  body.home .wp-container-core-group-is-layout-ac1ffb43 {
+    padding: 24px 16px !important;
+  }
+
+  body.home .wp-block-group.alignfull,
+  body.home .wp-block-group.alignwide,
+  body.home footer.wp-block-template-part > .wp-block-group {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  body.home .embed-privacy-overlay p,
+  body.home .embed-privacy-footer {
+    overflow-wrap: anywhere;
+  }
+}
