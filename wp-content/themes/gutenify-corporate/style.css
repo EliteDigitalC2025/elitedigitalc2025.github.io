@@ -2308,13 +2308,19 @@ body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-backgroun
   }
 }
 
+body.admin-bar #wpadminbar,
 #wpadminbar {
   display: none !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+  visibility: hidden !important;
 }
 
 html:has(#wpadminbar),
 html:has(body.admin-bar),
 body.admin-bar {
+  --wp-admin--admin-bar--height: 0px !important;
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
