@@ -2193,6 +2193,8 @@ body.home #testimonials h4 {
 /* Homepage section alignment cleanup. */
 body.home #services.wp-block-group.alignfull {
   align-items: center !important;
+  display: flex !important;
+  flex-direction: column !important;
   padding-top: clamp(48px, 5vw, 72px) !important;
   padding-bottom: clamp(48px, 5vw, 68px) !important;
 }
@@ -2225,12 +2227,13 @@ body.home #services.wp-block-group.alignfull > .wp-block-group:first-child p {
 
 body.home #services.wp-block-group.alignfull > .wp-block-columns {
   align-items: flex-start !important;
+  display: flex !important;
   gap: clamp(32px, 5vw, 80px) !important;
   justify-content: center !important;
   margin-left: auto !important;
   margin-right: auto !important;
   margin-top: clamp(36px, 4vw, 56px) !important;
-  max-width: 1180px !important;
+  max-width: 1280px !important;
   width: 100% !important;
 }
 
@@ -2238,12 +2241,14 @@ body.home #services.wp-block-group.alignfull > .wp-block-columns > .wp-block-col
   align-items: center !important;
   flex-basis: 0 !important;
   flex-grow: 1 !important;
-  max-width: 320px !important;
+  max-width: 340px !important;
   text-align: center !important;
 }
 
 body.home #testimonials.wp-block-group.alignfull {
   align-items: center !important;
+  display: flex !important;
+  flex-direction: column !important;
   padding-left: clamp(20px, 4vw, 56px) !important;
   padding-right: clamp(20px, 4vw, 56px) !important;
 }
@@ -2252,7 +2257,7 @@ body.home #testimonials.wp-block-group.alignfull > .wp-block-group,
 body.home #testimonials.wp-block-group.alignfull > .wp-block-columns {
   margin-left: auto !important;
   margin-right: auto !important;
-  max-width: 1180px !important;
+  max-width: 1320px !important;
   width: 100% !important;
 }
 
@@ -2273,7 +2278,9 @@ body.home #testimonials.wp-block-group.alignfull > .wp-block-group:not(.has-back
 
 body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-background-background-color {
   box-sizing: border-box !important;
-  max-width: 1180px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 1320px !important;
   width: 100% !important;
 }
 
@@ -2288,23 +2295,23 @@ body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-backgroun
 
 body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-background-background-color .wp-block-column:first-child {
   display: flex !important;
-  flex-basis: 58% !important;
+  flex-basis: 56% !important;
   flex-direction: column !important;
   justify-content: center !important;
 }
 
 body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-background-background-color .wp-block-column:first-child > * {
-  max-width: 720px !important;
+  max-width: 760px !important;
 }
 
 body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-background-background-color .wp-block-column:last-child {
-  flex-basis: 36% !important;
+  flex-basis: 38% !important;
 }
 
 body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-background-background-color .wp-block-column:last-child figure {
   margin-left: auto !important;
   margin-right: auto !important;
-  max-width: 420px !important;
+  max-width: 460px !important;
 }
 
 body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-background-background-color img {
