@@ -2272,12 +2272,12 @@ body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-backgroun
   }
 
   body.home #services.wp-block-group.alignfull > .wp-block-group:first-child p {
-    display: block !important;
+    display: table !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    max-width: 1120px !important;
+    max-width: none !important;
     text-align: center !important;
-    width: 100% !important;
+    width: auto !important;
   }
 
   body.home #services.wp-block-group.alignfull > .wp-block-columns {
