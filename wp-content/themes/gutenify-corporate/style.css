@@ -2307,3 +2307,13 @@ body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-backgroun
     white-space: nowrap !important;
   }
 }
+
+#wpadminbar {
+  display: none !important;
+}
+
+html.wp-toolbar,
+body.admin-bar {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
