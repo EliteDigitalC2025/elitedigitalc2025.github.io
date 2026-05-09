@@ -1778,6 +1778,19 @@ body.home .wp-block-button__link {
   white-space: normal;
 }
 
+body.home .homepage-video-embed .wp-block-embed__wrapper {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  width: 100%;
+}
+
+body.home .homepage-video-embed iframe {
+  border: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
 body.home #services {
   align-items: center;
 }
