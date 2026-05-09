@@ -2243,3 +2243,48 @@ body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-backgroun
 body.home #testimonials.wp-block-group.alignfull > .wp-block-group.has-background-background-color img {
   max-height: 420px;
 }
+
+@media screen and (min-width: 782px) {
+  body.home #services.wp-block-group.alignfull {
+    padding-top: 64px !important;
+    padding-bottom: 48px !important;
+  }
+
+  body.home #services.wp-block-group.alignfull > .wp-block-group:first-child {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 1200px !important;
+    width: 100% !important;
+  }
+
+  body.home #services.wp-block-group.alignfull > .wp-block-group:first-child > .wp-block-group {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 1120px !important;
+    width: 100% !important;
+  }
+
+  body.home #services.wp-block-group.alignfull h2 {
+    margin-bottom: 18px !important;
+    text-align: center !important;
+  }
+
+  body.home #services.wp-block-group.alignfull > .wp-block-group:first-child p {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 1120px !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  body.home #services.wp-block-group.alignfull > .wp-block-columns {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 64px !important;
+    max-width: 1500px !important;
+    width: 100% !important;
+  }
+}
